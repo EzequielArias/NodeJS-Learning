@@ -1,9 +1,9 @@
 const models = {
-    userModel : require("./noSQL/users"),
+    usersModel : require("./noSQL/users"),
     storageModel : require("./noSQL/storages"),
     tracksModel : require("./noSQL/tracks")
 }
 
 
 
-module.exports = models
+module.exports = models;
